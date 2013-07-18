@@ -80,7 +80,7 @@ class gpsp {
 			//No micro seconds
 			$aReturnGPGGA["timestamp"] = substr($aColumns[1],0,2) . ":" . substr($aColumns[1],2,2) . ":" . substr($aColumns[1],4,2);
 		} else {
-			//Microseconds!kittycat1
+			//Microseconds
 			
 			$aReturnGPGGA["timestamp"] = substr($aColumns[1],0,2) . ":" . substr($aColumns[1],2,2) . ":" . substr($aColumns[1],4,2) . ":" . $aTime[1];
 		}
